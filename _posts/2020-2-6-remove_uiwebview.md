@@ -27,7 +27,7 @@ The App Store Team
 So, 只不过是个警告罢了, 不理他, 能拿我怎样
 
 于是, 苹果在年底发了通告: [https://developer.apple.com/news/?id=12232019b](https://developer.apple.com/news/?id=12232019b):
-![Apple News And Updates](https://github.com/vinsent/vinsent.github.io/blob/master/assets/img/post/2020-2-6-remove_uiwebview/apple_news_about_webview.png)
+![Apple News And Updates](https://raw.githubusercontent.com/vinsent/vinsent.github.io/master/assets/img/post/2020-2-6-remove_uiwebview/apple_news_about_webview.png)
 
 重点在最后一句: The App Store will no longer accept new apps using UIWebView as of April 2020 and app updates using UIWebView as of December 2020.
 
