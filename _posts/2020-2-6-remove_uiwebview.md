@@ -44,10 +44,10 @@ OK, 接下来, 看下哪些framework还在使用UIWebView, [stack overflow](http
 
 * 首先, cd 到App archive路径下	
 
-```
- $ cd ~/Library/Developer/Xcode/Archives/<date>/myapp.xcarchive/Products/Applications/myapp.app	
- 
- ```
+	```
+	 $ cd ~/Library/Developer/Xcode/Archives/<date>/myapp.xcarchive/Products/Applications/myapp.app	
+	 
+	```
  
 * 然后使用下面的命令查找哪些framework在使用UIWebView(注意替换app名字)
 
