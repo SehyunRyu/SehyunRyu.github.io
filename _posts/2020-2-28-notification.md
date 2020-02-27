@@ -122,49 +122,49 @@ extension CustomNotificationn {
 #### 监听者的移除
 创建一个包含通知中心和监听类的类别, 使用deinit将观察者的生命周期与对象的生命周期联系起来
 
-	```
-	class Token {
-	    let center: NotificationCenter
-	    let observer: NSObjectProtocol
-	    
-	    init(observer: NSObjectProtocol, center: NotificationCenter = .default) {
-	        self.observer = observer
-	        self.center = center
-	    }
-	    
-	    deinit {
-	        center.removeObserver(observer)
-	    }
-	}
-	```
+```
+class Token {
+    let center: NotificationCenter
+    let observer: NSObjectProtocol
+    
+    init(observer: NSObjectProtocol, center: NotificationCenter = .default) {
+        self.observer = observer
+        self.center = center
+    }
+    
+    deinit {
+        center.removeObserver(observer)
+    }
+}
+```
 优化NotificationCenter的扩展函数
 
-	```
-	extension NotificationCenter {
-	    func addObserver<A>(forDescriptor d: NotificationDescriptor<A>,
-	                        object obj: Any? = nil,
-	                        queue: OperationQueue? = nil,
-	                        using block: @escaping (A) -> ()) -> Token? {
-	        let observer = addObserver(forName: d.name, object: nil, queue: nil, using: { note in
-	            block(d.convert(note))
-	        })
-	        return Token(observer: observer, center: self)
-	    }
-	}
-	```
+```
+extension NotificationCenter {
+    func addObserver<A>(forDescriptor d: NotificationDescriptor<A>,
+                        object obj: Any? = nil,
+                        queue: OperationQueue? = nil,
+                        using block: @escaping (A) -> ()) -> Token? {
+        let observer = addObserver(forName: d.name, object: nil, queue: nil, using: { note in
+            block(d.convert(note))
+        })
+        return Token(observer: observer, center: self)
+    }
+}
+```
 在启用监听的类中, 生命一个可选值的属性用来保存Token, 这样, 在这个类即将析构时, 也会调用token属性的deinit函数, 触发移除监听操作, 这种方式被称之为[获取资源即初始化](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization)
 虽然这种方式要求使用者要额外创建一个属性, 但是避免了使用者忘记移除监听者, 因为如果不接受addObserver返回值的话, 编译器会报警告来提示开发者
 如果想提前结束监听, 也可以手动置nil来移除监听
 
-	```
-	var token: Token?
-	
-	token = NotificationCenter.default.addObserver(forDescriptor: customNotificationDescriptor) { descriptor in
-	    print(descriptor.frame, descriptor.duration)
-	}
-	
-	token = nil
-	```
+```
+var token: Token?
+
+token = NotificationCenter.default.addObserver(forDescriptor: customNotificationDescriptor) { descriptor in
+    print(descriptor.frame, descriptor.duration)
+}
+
+token = nil
+```
 
 ### 参考文章
 [Swift Talk episode 27: Typed Notifications](https://talk.objc.io/episodes/S01E27-typed-notifications-part-1)
