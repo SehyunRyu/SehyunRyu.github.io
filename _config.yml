@@ -16,7 +16,7 @@ description: >-                        # used by seo meta and the atom feed
   A iOS developer.
 
 # Replace with your domain, e.g. 'https://username.github.io'
-url: 'https://sehyunryu.github.io/website'
+url: 'https://sehyunryu.github.io'
 
 author: vinsent                  # change to your full name
 
@@ -44,7 +44,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 #--------------------------
 
 # if your site type is Project Pages site, change below value to '/projectname'
-baseurl: ''
+baseurl: '/website'
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Shanghai
