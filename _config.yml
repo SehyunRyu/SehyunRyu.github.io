@@ -10,7 +10,7 @@
 
 title: Vinsent                          # the main title
 
-tagline: Excellence begin by stop shaking leg.  # it will display as the sub-title
+tagline:  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A iOS developer.
@@ -44,7 +44,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 #--------------------------
 
 # if your site type is Project Pages site, change below value to '/projectname'
-baseurl: '/website'
+baseurl: ''
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Shanghai
