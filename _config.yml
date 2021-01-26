@@ -38,7 +38,7 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
-    - https://www.instagram.com/ifusay_hyun/
+    # - https://www.instagram.com/ifusay_hyun/
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
@@ -48,7 +48,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 baseurl: ''
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: Asia/Seoul
 
 google_analytics:
   # Fill with your Google Analytics ID

@@ -8,7 +8,7 @@ title: Read books
 # MIT License
 ---
 
-#### Liberal Arts
+## Liberal Arts
 ⋅The Bible
 ⋅The Four: The Hidden DNA of Amazon, Apple, Facebook, and Google (Scott Galloway)  
 ⋅The Wisdom of Finance: Discovering Humanity in the World of Risk and Return (Mihir Desai)  
@@ -30,7 +30,7 @@ title: Read books
 ⋅21세기 이공계의 미래 T자형 인재 (조철선)  
 									
 
-#### Science and Technology
+## Science and Technology
 ⋅The Black Hole War: My Battle with Stephen Hawking to Make the World Safe for Quantum Mechanics (Leonard Susskind)  
 ⋅The Quantum Story: A history in 40 moments (Jim Baggott)  
 ⋅Chaos: Making a New Science (James Gleik)  
