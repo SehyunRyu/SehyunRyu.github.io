@@ -8,4 +8,22 @@ title: About
 # MIT License
 ---
 
-> **Note**: Add Markdown syntax content to file `tabs/about.md` and it will show up on this page.
+# Sehyun Ryu
+#### current position
+Undergraduate Student, Dept. of Electrical Engineering,  
+POSTECH, Reupublic of Korea
+#### Area of Interests
+⋅Neuromorphic Computing  
+⋅Semiconductor Electronics  
+⋅Computer Vision  
+⋅Neural Engineering  
+#### Education
+⋅2018.02 - present: Pursuing B.S, Electrical Engineering, POSTECH  
++2018.06 - 2018.08: Excahnge Student, Seoul National University  
++2019.01 - 2019.02: Exchange Student, Yonsei University
+#### Experiences
+⋅2018.04 - 2019.01: Undergraduate Student Researcher, POSTECH UGRP  
+  (Advised by Prof. Eunyoung Youn)
+⋅2020.06 - 2020.08: Undergraduate Research Fellow, Computer Vision Lab, POSTECH  
+  (Advised by Prof. Suha Kwak)<br />
+

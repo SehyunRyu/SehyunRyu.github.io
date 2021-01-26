@@ -8,36 +8,37 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Vinsent                          # the main title
+title: Sehyun Ryu                         # the main title
 
 tagline:  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A iOS developer.
+
 
 # Replace with your domain, e.g. 'https://username.github.io'
 url: 'https://sehyunryu.github.io'
 
-author: vinsent                  # change to your full name
+author: Sehyun Ryu                  # change to your full name
 
-avatar: /assets/img/sample/avatar.jpg   # support internet resources
+avatar: /assets/img/sample/my_photo.jpg   # support internet resources
 
 github:
-  username: vinsent             # change to your github username
+  username: Sehyun Ryu             # change to your github username
 
 twitter:
-  username: vintsingle            # change to your twitter username
+  username:             # change to your twitter username
 
 social:
-  name: vinsent                  # it will shows as the copyright owner in Footer
-  email: vintsingle@gmail.com             # change to your email address
+  name: Sehyun Ryu                  # it will shows as the copyright owner in Footer
+  email: dbwl4440@postech.ac.kr             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     #- https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/vinsent       # change to your github homepage
+    - https://github.com/SehyunRyu       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
+    - https://www.instagram.com/ifusay_hyun/
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
