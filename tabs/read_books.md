@@ -18,16 +18,21 @@ title: Read books
 ⋅Zero to One: Notes on Startups, or How to Build the Future (Peter Thiel)  
 ⋅Against the Odds: An Autobiography (James Dyson)  
 ⋅The Big Questions: Philosophy (Simon Blackburn)  
-⋅Brave New World (Aldous Huxley)  
+⋅Brave New World (Aldous Huxley) 
+⋅The Giver (Lois Lowry)  
+⋅Big Fish: A Novel of Mythic Proportions (Daniel Wallace)  
+⋅Wonder (R. J. Palacio)  
 ⋅돈의 감각 (이명로)  
 ⋅김영란의 열린 법 이야기 (김영란)  
-⋅심리학 일주일 (박진영)<  
+⋅심리학 일주일 (박진영)  
 ⋅행동경제학 (도모노 노리오)  
 ⋅국가란 무엇인가 (유시민)  
 ⋅마지막신호 (데이비드 차)  
 ⋅너라는 계절 (김지훈)  
 ⋅엘론머스크, 대담한 도전 (다케우치 가즈마사)  
 ⋅21세기 이공계의 미래 T자형 인재 (조철선)  
+⋅원 포인트 K-스타트업 창업 (이홍철)  
+⋅대학원생 때 알았더라면 좋았을 것들 (엄태웅, 최윤섭, 권창현)  
 									
 
 ## Science and Technology
