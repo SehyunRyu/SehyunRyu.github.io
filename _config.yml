@@ -36,9 +36,10 @@ social:
     #- https://twitter.com/username      # change to your twitter homepage
     - https://github.com/SehyunRyu       # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    - https://www.facebook.com/sehyun.ryu.3/
+    - https://www.instagram.com/ifusay_hyun/
+    - https://www.linkedin.com/in/sehyun-ryu-57b640172/
     # - https://www.linkedin.com/in/username
-    # - https://www.instagram.com/ifusay_hyun/
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
