@@ -9,4 +9,4 @@ title: Publications
 ---
 
 I do not have any puublications now :)  
-Maybe I could get publications in graduate school.
+Maybe I could get publications in a graduate school.
