@@ -1,6 +1,6 @@
 ---
 title: Jekyll 이용 개인 홈페이지 만들기 +Github 간단한 사용법
-categories: [small_project]
+categories: [Trivial_Project]
 tags:
 seo:
 date_modified: 2021-01-26 11:59:00 +0900
