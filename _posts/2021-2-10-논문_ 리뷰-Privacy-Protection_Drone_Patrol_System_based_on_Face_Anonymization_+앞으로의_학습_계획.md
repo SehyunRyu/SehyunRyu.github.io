@@ -18,7 +18,8 @@ date_modified: 2021-02-10 11:59:00 +0900
 [논문 링크](https://arxiv.org/abs/2005.14390)  
 ![Fig 2.](/assets/img/post/2021-2-10/Fig2.jpg)  
 Abstract의 시작 부분에서는 로봇 시장이 커져가고 있으며, 그에 따라 드론에 찍힌 사람의 얼굴이 노출되는 등의 사생활 침해 위협이 있다고 말한다. 그리고 해당 논문은 그런 사생활 침해 문제를 해결하기 위하여, robot perception을 유지하는 face-anonymizing algorithm을 개발했다. Anonymizing의 큰 그림은 Photorealistic한 image를 Segmenatation Learning Part를 거쳐 Segmentation image로, 그리고 Synthesis Learning Part를 거쳐 다시 Photorealistic한 image로 바꾸는 것이다. 이를 통해 10번 refrence인 Jason et al.의 Algorithm은 원본 image의 특성을 담아낸다는 문제를 해결하였다! 이를 위해서는 Segmentation과 Synthesis를 수행하는 어떠한 [GAN](https://arxiv.org/abs/1406.2661) framework든 사용할 수 있지만, 해당 논문에서는 각각의 과정에 작성 시점의 두 가지 state-of-the-art인 [CycleGAN](https://arxiv.org/abs/1703.10593)과 [GauGAN](https://arxiv.org/abs/1903.07291)의 Loss function을 수정하여 사용했다.  
-결과적으로는 [Siamese Network](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)를 통해 계산한 두 image 사이의 Euclidean distance가 동일 인물의 image 사이 값보다 크기에 Privacy-Preserving이 효과적임을 보이고, 드론과 같은 로봇이 물체를 인식하고 주변 환경에서 본인의 위치를 파악하는 데에도 문제가 발생하지 않음을 [ORB-SLAM2](https://arxiv.org/abs/1610.06475)를 통해 확인하였다.
+  
+결과적으로는 [Siamese Network](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)를 통해 계산한 두 image 사이의 Euclidean distance가 동일 인물의 image 사이 값보다 크기에 Privacy-Preserving이 효과적임을 보이고, 드론과 같은 로봇이 물체를 인식하고 주변 환경에서 본인의 위치를 파악하는 데에도 문제가 발생하지 않음을 [ORB-SLAM2](https://arxiv.org/abs/1610.06475)를 통해 확인하였다.  
   
 ### 솔직히 모르겠는 Loss function 수정 내용
 ![Fig 3.](/assets/img/post/2021-2-10/Fig3.jpg)  
@@ -26,9 +27,13 @@ Abstract의 시작 부분에서는 로봇 시장이 커져가고 있으며, 그�
   
 ### 논문 리뷰 및 앞으로의 학습 계획
 해당 논문에서는 두 가지의 GAN Framework를 합쳐 하나의 Architecture를 구성하고 Loss function을 변경하였지만, 개별 Network의 Architecture를 크게 변경하지는 않았다. 연구실의 해당 주제 논문을 읽고나니, 내가 앞으로 해야할 일은 세부적인 Network의 수정이라기 보다 state-of-the-art 수준의 Neural Network Architecture를 활용하는 쪽이라는 느낌이 확실히 온다. 어떤 식으로 Privacy를 보호할지 idea developing이 확실히 핵심적이겠지..!  
+  
 다만 기술 및 지식적으로 Loss function을 정확히 어떤 식으로 구성하였는지, epoch 설정 및 normalization을 정확히 어떻게 하는지 등이 기억이 잘 안 난다.(이거 참 심각한 수준이지만!) 그래서 훗날 네트워크를 용도에 맞게 변경하기 위해서라도 이 내용들을 다시 학습해야 할 것으로 보인다. 또 위에서 언급한 CycleGAN과 GauGAN 논문을 읽고 해당 논문의 Loss function 수정 부분을 다시 읽어보면 좋을 것 같다. 그리고 핵심적 내용은 아니지만 Siamese Network가 무엇이고 어떻게 작동하는지도 논문을 읽어봐야 알 것 같다.  
+  
 그리고 직접 코드를 만져봐야겠고! 어떤 내용을 어느 정도부터 실습을 해야할지 참 고민이 됐는데, 지금 생각했을 때는 [FCN Semantic Segmentation Network](https://arxiv.org/abs/1411.4038) 코드를 보고 수정해서 돌려보며 앞서 말한 라이브러리들에도 좀 익숙해지면 적절한 수준이 아닐까 싶다. 제 상황에 더 좋아보이는 게 있다면 알려주세요, 약간은 맨땅에 헤딩하는 기분이에요...ㅋㅋ  
 정리하자면 우선, 'Loss function/epoch/normalization 등 기본개념 학습 -> FCN Semantic Segmentation Network 코드 실습 -> CycleGAN/GauGAN 등 논문 읽고 다시 이해해보기'의 순서를 거치면 되지 않을까 싶다!  
+  
+  
   
   
 *개인적인 질문 및 조언과 오류에 대한 지적은 늘 감사합니다!
