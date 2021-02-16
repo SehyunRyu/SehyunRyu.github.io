@@ -33,8 +33,9 @@ title: Read books
 ⋅21세기 이공계의 미래 T자형 인재 (조철선)  
 ⋅원 포인트 K-스타트업 창업 (이홍철)  
 ⋅대학원생 때 알았더라면 좋았을 것들 (엄태웅, 최윤섭, 권창현)  
-									
-
+⋅수도권 알짜 부동산 답사기 (빠숑)  
+  
+  
 ## Science and Technology
 ⋅The Black Hole War: My Battle with Stephen Hawking to Make the World Safe for Quantum Mechanics (Leonard Susskind)  
 ⋅The Quantum Story: A history in 40 moments (Jim Baggott)  
