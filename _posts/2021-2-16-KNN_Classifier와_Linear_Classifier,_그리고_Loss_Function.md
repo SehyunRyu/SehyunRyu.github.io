@@ -24,10 +24,10 @@ Cross-Validation은 Training Set을 몇 개의 fold로 나눈 뒤 각 fold들을
   
   
 ### Linear Classification
-![Cross-Validation Folds](/assets/img/post/2021-2-16/liner_classifier.jpg)  
+![Linear Classifier](/assets/img/post/2021-2-16/linear_classifier.jpg)  
 k-NN Algorithm의 경우 모든 image를 pixel-wise 비교할 Training Set의 모든 image들을 계속해서 기억하고 있어야 하고 또 연산을 해야 한다는 비효율성을 지니고 있다. 이러한 단점을 해결할 수 있는 model이 Linear Classification이다. 위의 그림과 같이 vector로 변환한 image에 Weight을 곱하여(bias vector를 더하는 것도 Weight에 포함시킬 수 있다.) Score가 가장 높은 Category로 image를 Classification하는 방식이다. 위에서는 단순화시키기 위해 Color Channel을 고려하지 않았지만, 실제로는 Red/Green/Blue라는 3개의 Channel마다의 Score의 weighted sum을 최종 Score로 계산하는 것으로 보인다.  
   
-![Cross-Validation Folds](/assets/img/post/2021-2-16/liner_interpretation.jpg)  
+![Liner Interpretation](/assets/img/post/2021-2-16/linear_interpretation.jpg)  
 이 때 W의 각 row가 image vector와 곱해져 해당 Category의 Score를 만듦을 알 수 있는데, 직관적으로 해당 row와 column의 inner product를 상대적으로 크게 만들기 위해서는 image vector의 값 분포가 row와 유사해야 할 것이라 생각할 수 있을 것이다. 그래서인지 흥미롭게도 W의 각 row를 시각화해보면 위와 같이 Category의 대략적인 형태를 담아냄을 볼 수 있고, 각 row를 Training Set image들의 prototype이라 생각할 수 있다 말한다. k-NN에서는 모든 image와 비교했다면, Linear Classification에서는 모든 image의 대략적인 feature를 뽑아낸 하나의 prototype과 비교하는 셈이다.
   
   
