@@ -54,7 +54,7 @@ Information Theory에서 Cross-Entropy는 위와 같이 정의된다고 한다. 
   
 ### +Norm이란? L1 & L2
 ![p-norm](/assets/img/post/2021-2-16/p-norm.jpg)  
-Norm은 Vector space에서 nonnegative real number로 가는 함수라고 한다. 그 중 p-norm은 위와 같은 형태로 생겼고, 이를 통해 원점으로 부터 특정 vector의 distance를 나타낼 수 있다고 한다. 이 중 L1 norm(1-norm)과 L2 norm(2-norm)를 Loss function의 정의에 많이 사용하는 것으로 보인다. 특성은 L1이 L2보다 robust하고, L2가 L1보다 stable하다고 한다. 위에 나왔던 내용 중 Regualarization Loss가 L2 꼴임을 알 수 있고, L2 norm의 특성 상 값을 difuse하게 만들어 overfitting을 방지할 수 있다고 한다. 
+Norm은 Vector space에서 nonnegative real number로 가는 함수라고 한다. 그 중 p-norm은 위와 같은 형태로 생겼고, 이를 통해 원점으로 부터 특정 vector의 distance를 나타낼 수 있다고 한다. 이 중 L1 norm(1-norm)과 L2 norm(2-norm)를 Loss function의 정의에 많이 사용하는 것으로 보인다. 특성은 L1이 L2보다 robust하고, L2가 L1보다 stable하다고 한다. 위에 나왔던 내용 중 Regualarization Loss가 L2 꼴임을 알 수 있고, L2 norm의 특성 상 값을 difuse하게 만들어 overfitting을 방지할 수 있다고 한다.  
   
   
   
