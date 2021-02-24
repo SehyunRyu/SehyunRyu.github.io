@@ -26,7 +26,7 @@ PIP는 Python으로 작성된 패키지 소프트웨어를 설치하거나 관�
 ```
 pip install (library 이름)
 ```
-![If yoy success download](/assets/img/post/2021-2-25/pytroch_complete.jpg) 
+![If yoy success download](/assets/img/post/2021-2-25/pytorch_complete.jpg) 
 설치가 완료되어 잘 실행되는지는 위와 같이 import가 되는지 확인해보면 된다.  
 <br/>
 
