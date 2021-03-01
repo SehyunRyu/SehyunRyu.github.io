@@ -72,7 +72,7 @@ Object Detector에는 크게 Many Stages Detector와 One Stage Detector의 두 �
 그런데 Bounding Box Regression을 하기 전, Template으로 image를 훑는 과정은 어디에 있는지 의문이 들었다. 그런데 Bounding Box를 만드는 함수 내에서 이미 어디서 'prob_cls > prob_thresh'인지 찾았고, 즉 Probability가 Threshold를 넘는 indices들에 대해 밑부분의 Bounding Box를 만들고 고치는 과정을 진행함을 알 수 있다.  
 <br/>
 
-![prob_cls]](/assets/img/post/2021-3-1/prob_cls.jpg)  
+![prob_cls](/assets/img/post/2021-3-1/prob_cls.jpg)  
 이 prob_cls는 score_cls를 Sigmoid(개별 Neuron의 Threshold를 재현한 함수의 일종)에 통과시킨 결과이고, score_cls는 Model에 image를 넣은 output의 결과임을 알 수 있다. 이 말은 Model에 image를 통과시켰을 때에 이미 어느 부분에 얼굴이 있을지 안다는 이야기일 것이다. 즉 CNN을 통과하며 image의 어떤 위치에 얼굴이 있을지 대략적으로 안다는 말 같은데, 이럴 것이면 왜 Template을 만드는지 이해를 할 수가 없다. 굉장히 작은 얼굴을 이미 CNN만으로 Detection 할 수 있다면 Template이 왜 필요한 것인지, 순전히 Bounding Box를 만들기 위해 필요한 것인지 의문이 든다.  
 <br/>
 
