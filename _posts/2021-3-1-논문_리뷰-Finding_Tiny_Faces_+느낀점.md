@@ -12,7 +12,7 @@ date_modified: 2021-03-01 19:00:00 +0900
 ### Finding Tiny Faces (Peiyun Hu et al.) 요약
 [논문 링크](https://arxiv.org/abs/1612.04402)  
 
-![Image Pyramid + Template](/assets/img/post/2021-2-10/image_pyramid.jpg)  
+![Image Pyramid + Template](/assets/img/post/2021-3-1/image_pyramid.jpg)  
 우선 본 논문은 제목과 같이, 어떻게 하면 image 내에 있는 작은 Target Object들을 잘 Detection 해낼 수 있는지에 대한 방법을 제시한 논문이다. 역사적으로 처음에 작은 Target Object를 Detection 할 때에는 (a)의 방식처럼 Single-Scale Template을 사용했다고 한다. 그리고 이를 원본 image를 여러 크기로 늘리고 줄인 Image Pyramid에 대해 Detection을 시켰다고 한다. 그런데 Target Object의 크기에 따라 Resolution이 다를 것이므로, 반대로 하나의 image에 여러 Size와 그에 맞게 Resolution이 바뀐 Template들을 적용시키는 방식이 그 다음으로 나온 (b)이다. 그리고 해당 논문에서는 Extreme Case들까지 다루기 위해 (a)와 (b)의 방식을 합쳐, Coarse한 Image Pyramid를 만들고 그곳에 여러 Size와 Resolution의 Template들을 적용시켰다. 또 (d)를 보면 이에 더하여 Template에 Context까지 포함을 시켰음을 알 수 있다.  
 <br/>
 
