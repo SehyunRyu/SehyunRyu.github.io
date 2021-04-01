@@ -182,7 +182,7 @@ Bus error said maybe it was caused by lack of shared memory. But watching RAM wi
 <br/>
 
 ![end](/assets/img/post/2021-4-1/end.jpg)
-After learning, I found about number of workers. 'Number of workers' in Dataloader means 'how many subprocesses will be used for loading data'. And 'Shared meomry' is the memory which multiple processes can access to. So workers in Dataloader use multiple processes and it requires shared memory. You could assign shared memory capacity from RAM, and rest of it is used for running other commands. So just increasing Shred memory is not a good choice. On the contrary, it could decrease executing speed. Setting appropriate number of workers and shared memory are important with this reason!
+After learning, I found about number of workers. 'Number of workers' in Dataloader means 'how many subprocesses will be used for loading data'. And 'Shared memory' is the memory which multiple processes can access to. So workers in Dataloader use multiple processes and it requires shared memory. You could assign shared memory capacity from RAM, and rest of it is used for running other commands. So just increasing Shred memory is not a good choice. On the contrary, it could decrease executing speed. Setting appropriate number of workers and shared memory are important with this reason!
 <br/>
 
 ### What should I do next?
