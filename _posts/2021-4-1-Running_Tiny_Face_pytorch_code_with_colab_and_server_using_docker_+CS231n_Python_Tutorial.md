@@ -102,7 +102,7 @@ df -h
 ln -s <new> <original>
 ```
 
-[Docekr]  
+[Docker]  
 ```
 # Make Container (bro already made it in shell script)
 ./container.sh   #change --shm-size=5g option and container name
@@ -114,7 +114,7 @@ docker start <contianer id>
 docker exec -it <container id> bash
 
 # Stop Container
-docekr stop shryuX
+docker stop shryuX
 
 # See running Containers
 docker ps
