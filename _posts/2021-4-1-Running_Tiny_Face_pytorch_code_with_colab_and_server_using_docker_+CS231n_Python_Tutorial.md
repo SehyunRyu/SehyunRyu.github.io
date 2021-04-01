@@ -1,5 +1,5 @@
 ---
-title: Running Tiny Face pytorch code with colab and server using docker +CS231n Python Tutorial
+title: Running Tiny Face Pytorch Code with Colab and Server Using Docker +CS231n Python Tutorial
 categories: [Privacy_Preserving_Deep-Learning]
 tags:
 seo:

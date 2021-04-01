@@ -1,5 +1,5 @@
 ---
-title: Changing Process of Thoughts about Studying Abroad
+title: Changing Process of my Thoughts about Studying Abroad
 categories: [Thoughts]
 tags:
 seo:
