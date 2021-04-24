@@ -148,6 +148,9 @@ docker pull <docker hub repository>/<image name>:<tag>
 
 # Logout Docker Hub
 docker logout
+
+# Move File to Container from Local
+docekr cp <file directory> <container id>:<directory in container> 
 ```
 
 [Server]
@@ -156,7 +159,7 @@ docker logout
 ssh -p <port number> shryu@sv1.aislab.io   #access to server1
 
 # Move file (like mv a b)
-ssh -P <port number> a shryu@sv2.aislab.io:~/Download   #move a to backside directory
+scp -P <port number> a shryu@sv2.aislab.io:~/Download   #move a to backside directory
 ```
 
 [VNC]  
@@ -190,4 +193,4 @@ I learned how to set an environment and just ran it. In sequence, I will analyze
 <br/> 
 <br/>   
 <br/>  
-*Always Thank You to Personal Questions, Advise, and Pointing Out My Mistakes!
+*Always Thank You for your Personal Questions, Advise, and Pointing Out My Mistakes!
