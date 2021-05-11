@@ -11,7 +11,7 @@ title: About
 # Sehyun Ryu
 ## current position
 Undergraduate Student, Dept. of Electrical Engineering,  
-POSTECH, Reupublic of Korea
+POSTECH, Republic of Korea
 ## Area of Interests 
 ⋅Privacy in Deep Learning  
 ⋅Computer Vision  
