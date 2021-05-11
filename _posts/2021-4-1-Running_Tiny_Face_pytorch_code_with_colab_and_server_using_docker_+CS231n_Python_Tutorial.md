@@ -13,7 +13,7 @@ In this post I'll talk about the process of runnig [Tiny Face Pytorch code](http
 <br/>
 
 ### +CS231n Python Tutorial Reommended by Postdoc Bro
-Before runnig a code of the paper, I did [CS231n Python Tutorial]((https://cs231n.github.io/python-numpy-tutorial/)). Postdoc bro of my next seat in our lab recommended this. He took pity on me because I have never coded with Python. I have mainly coded with C, C++, JAVA. I briefly knew about the grammar of Python by watching youtube video when I was in freshman. I thought I have to do this tutorial to learn Python programming more carefully. However, there are not huge differences in grammar as I expected. But there are some points which I thought as important.
+Before runnig a code of the paper, I did [CS231n Python Tutorial](https://cs231n.github.io/python-numpy-tutorial). Postdoc bro of my next seat in our lab recommended this. He took pity on me because I have never coded with Python. I have mainly coded with C, C++, JAVA. I briefly knew about the grammar of Python by watching youtube video when I was in freshman. I thought I have to do this tutorial to learn Python programming more carefully. However, there are not huge differences in grammar as I expected. But there are some points which I thought as important.
 <br/>
 
 At first, do not need to write datatype before variables. It is very unocomfortable trait to me. Becuase I could not know this is new variable or already existed thing. At second, 'array' is called 'list' in Python. And this 'list' is something much more advanced form the 'vector' in C++. It is resizable, and free from datatypes. It looks very convinient!

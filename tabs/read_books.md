@@ -9,7 +9,7 @@ title: Read books
 ---
 
 ## Liberal Arts
-⋅The Bible
+⋅The Bible  
 ⋅The Four: The Hidden DNA of Amazon, Apple, Facebook, and Google (Scott Galloway)  
 ⋅The Wisdom of Finance: Discovering Humanity in the World of Risk and Return (Mihir Desai)  
 ⋅Rich Dad Poor Dad: What the Rich Teach Their Kids About Money - That the Poor and Middle Class Do Not! (Robert T. Kiyosaki)  
