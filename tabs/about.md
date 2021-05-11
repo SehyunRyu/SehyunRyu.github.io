@@ -15,7 +15,7 @@ POSTECH, Republic of Korea
 ## Area of Interests 
 ⋅Privacy in Deep Learning  
 ⋅Computer Vision  
-⋅Robotics System  
+⋅Robotic System  
 ⋅Neural Engineering  
 ## Education
 ⋅2018.02 - present: Pursuing B.S, Electrical Engineering, POSTECH  
