@@ -94,9 +94,9 @@ Yes, something was wrong. The result was similar with the first one. There were 
 
 
 ### Setting Threshold as 0 after Analyzing Loss and Success
-![1-score_to_det](/assets/img/post/2021-5-14/retraining.jpg)  
-![2-get_detctions](/assets/img/post/2021-5-14/no_develop.jpg)  
-![3-get_bboxes](/assets/img/post/2021-5-14/retraining.jpg)  
+![1-score_to_det](/assets/img/post/2021-5-14/1-score_to_det.jpg)  
+![2-get_detctions](/assets/img/post/2021-5-14/2-get_detctions.jpg)  
+![3-get_bboxes](/assets/img/post/2021-5-14/3-get_bboxes.jpg)  
 I went back to the possibilty of threshold. At first I traced the meaning of the score in the result text file. And finally I found that score means the 'socre_cls' corresponding with bounding box coordinates. Probability is the value after CNN layers and score is the value after assesing similarity of templates.
 <br/>
 
