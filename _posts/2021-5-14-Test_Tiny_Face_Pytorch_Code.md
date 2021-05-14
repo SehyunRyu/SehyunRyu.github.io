@@ -97,7 +97,7 @@ Yes, something was wrong. The result was similar with the first one. There were 
 ![1-score_to_det](/assets/img/post/2021-5-14/1-score_to_det.jpg)  
 ![2-get_detections](/assets/img/post/2021-5-14/2-get_detections.jpg)  
 ![3-get_bboxes](/assets/img/post/2021-5-14/3-get_bboxes.jpg)  
-I went back to the possibilty of threshold. At first I traced the meaning of the score in the result text file. And finally I found that score means the 'socre_cls' corresponding with bounding box coordinates. Probability is the value after CNN layers and score is the value after assesing similarity of templates.
+I went back to the possibilty of threshold. At first I traced the meaning of the score in the result text file. And finally I found that score means the 'score_cls' corresponding with bounding box coordinates. Probability is the value after CNN layers and score is the value after assesing similarity of templates.
 <br/>
 
 ![loss_over0](/assets/img/post/2021-5-14/loss_over0.jpg)  
