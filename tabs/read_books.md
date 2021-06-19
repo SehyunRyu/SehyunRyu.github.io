@@ -11,6 +11,8 @@ title: Read books
 ## Liberal Arts
 ⋅The Bible  
 ⋅Elementary Logic (Willard Van Orman Quine)  
+⋅Brave New World (Aldous Huxley)  
+⋅The Art of Loving (Erich Fromm)  
 ⋅The Four: The Hidden DNA of Amazon, Apple, Facebook, and Google (Scott Galloway)  
 ⋅The Wisdom of Finance: Discovering Humanity in the World of Risk and Return (Mihir Desai)  
 ⋅Rich Dad Poor Dad: What the Rich Teach Their Kids About Money - That the Poor and Middle Class Do Not! (Robert T. Kiyosaki)  
@@ -19,8 +21,6 @@ title: Read books
 ⋅Zero to One: Notes on Startups, or How to Build the Future (Peter Thiel)  
 ⋅Against the Odds: An Autobiography (James Dyson)  
 ⋅The Big Questions: Philosophy (Simon Blackburn)  
-⋅Brave New World (Aldous Huxley)  
-⋅The Art of Loving (Erich Fromm)  
 ⋅The Giver (Lois Lowry)  
 ⋅Big Fish: A Novel of Mythic Proportions (Daniel Wallace)  
 ⋅Wonder (R. J. Palacio)  
