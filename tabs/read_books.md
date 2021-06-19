@@ -10,6 +10,7 @@ title: Read books
 
 ## Liberal Arts
 ⋅The Bible  
+⋅Elementary Logic (Willard Van Orman Quine)  
 ⋅The Four: The Hidden DNA of Amazon, Apple, Facebook, and Google (Scott Galloway)  
 ⋅The Wisdom of Finance: Discovering Humanity in the World of Risk and Return (Mihir Desai)  
 ⋅Rich Dad Poor Dad: What the Rich Teach Their Kids About Money - That the Poor and Middle Class Do Not! (Robert T. Kiyosaki)  
@@ -23,16 +24,16 @@ title: Read books
 ⋅The Giver (Lois Lowry)  
 ⋅Big Fish: A Novel of Mythic Proportions (Daniel Wallace)  
 ⋅Wonder (R. J. Palacio)  
-⋅돈의 감각 (이명로) 
+⋅돈의 감각 (이명로)  
 ⋅돈의 속성 (김승호)  
 ⋅김영란의 열린 법 이야기 (김영란)  
 ⋅심리학 일주일 (박진영)  
 ⋅행동경제학 (도모노 노리오)  
 ⋅국가란 무엇인가 (유시민)  
-⋅마지막신호 (데이비드 차)  
 ⋅너라는 계절 (김지훈)  
 ⋅엘론머스크, 대담한 도전 (다케우치 가즈마사)  
 ⋅21세기 이공계의 미래 T자형 인재 (조철선)  
+⋅천재와 괴짜들의 일본 과학사 (고토 히데키)  
 ⋅원 포인트 K-스타트업 창업 (이홍철)  
 ⋅대학원생 때 알았더라면 좋았을 것들 (엄태웅, 최윤섭, 권창현)  
 ⋅수도권 알짜 부동산 답사기 (김학렬)  
