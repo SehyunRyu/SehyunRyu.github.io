@@ -96,10 +96,23 @@ free -m
 df -h
 
 # Watch Real Time Status
-> watch -n 1 nvidia-smi   #Watch real time GPU status
+watch -n 1 nvidia-smi   #Watch real time GPU status
 
-# Make Soft Link
-ln -s <new> <original>
+# Make Symbolic Link
+ln -s <original> <copy>
+
+# Change Owner of Directory
+chown <owner> <direcotry>
+
+# Look Permissions of Current Directory
+ls -al
+
+# Change Permissions
+chmod <sequence of numbers> <directory>
+// Set the sequence of numbers as sum of 4, 2, 1.
+// Each digit means Reading, Writing, Executing permissions for Owner, Groupd, Etc.
+// ex) Want to gice all permissions to owner but not to others = 700
+
 ```
 
 [Docker]  
@@ -169,6 +182,9 @@ vncserver -localhost no
 
 # Kill VNC
 vncserver -kill :2   #kill number 2
+
+# Change VNC Password
+vncpasswd 
 ```  
 <br/>
 
